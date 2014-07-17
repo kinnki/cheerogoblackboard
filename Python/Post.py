@@ -76,7 +76,7 @@ def getCheeregoBoard():
     except:
         return ""
     
-data = open('config.ini', 'r').read()
+data = open('config.json', 'r').read()
 config = json.loads(data)
 
 id = config["id"]
